@@ -1,0 +1,16 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  database: App42PaaS-Rails-MySQL-Sample_development
+  pool: 5
+  username: root
+  password:
+
+production:
+  adapter: mysql2            
+  host: < host >                          # VM IP
+  port: < port >                          # VM Port 
+  database: < database name >             # Database Name
+  username: < user_name >                 # User Name
+  password: '< password >'                # Password
+
